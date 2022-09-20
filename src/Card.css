@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+.card-container {
+    padding: 2rem;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.card-image {
+    border-radius: 10px;
+}
+
+.rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.rating-country {
+    font-weight: 200;
+    font-size: 2rem;
+    
+}
+
+.rating-country span {
+    color: #918E9B;
+    font-size: 2rem;
+}
+
+
