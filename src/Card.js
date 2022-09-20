@@ -9,8 +9,8 @@ export default function Card() {
                 <img className='star-image' src='./star.png' alt='star'></img>
                 <h4 className='rating-country'> 5.0 <span>(6) • USA</span></h4>
             </div>
-            <h3>Life lessons with Katie Zaferes</h3>
-            <h3><span>From 136$</span> / person</h3>
+            <h3 className="description">Life lessons with Katie Zaferes</h3>
+            <h4 className="price">From 136$  <span> / person </span></h4>
         </div>
     );
 }

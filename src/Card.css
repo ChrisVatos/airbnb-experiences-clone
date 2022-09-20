@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
 
 .card-container {
-    padding: 2rem;
+    margin: 0.4rem 2rem 2rem;
     border-radius: 15px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    width: 270px;
 }
 
 .card-image {
     border-radius: 10px;
+    width: 100%
+
 }
 
 .rating {
@@ -17,16 +19,27 @@
     align-items: center;
 }
 
-
 .rating-country {
     font-weight: 200;
-    font-size: 2rem;
-    
+    font-size: 1.2rem;
+    padding: 0.3rem 0 0 0.4rem;
 }
 
 .rating-country span {
     color: #918E9B;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
+.description {
+    font-weight: 200;
+    padding-top: 0.4rem;
+}
+
+.price {
+    padding-top: 0.4rem;
+}
+
+.price span {
+    font-weight: 200;
+}
 
